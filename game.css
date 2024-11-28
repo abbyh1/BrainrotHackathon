@@ -1,0 +1,26 @@
+.gameHeader{
+    text-align: center;
+    margin-top: 30px;
+}
+.characters{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.gigachad{
+    height:300px;
+    object-fit: cover;
+}
+.tv{
+    height:300px;
+    object-fit: cover;
+}
+h2{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+  }
+body{
+    background-image: url(https://i1.sndcdn.com/avatars-vzVavnrNStPmzryz-P4cGOw-t240x240.jpg);
+}

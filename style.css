@@ -25,6 +25,9 @@ body{
 .header{
     color:white
 }
+a {
+    text-decoration: none;
+  }
 .but{
     display: flex;
     justify-content: center;
