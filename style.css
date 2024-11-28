@@ -14,14 +14,21 @@ body{
     font-family: "Lucida Console", "Courier New", monospace;
     font-size:30px;
     margin-top: 600px;
-    margin-left: 1200px;
-    background-color: rgb(126, 209, 194);
+    background-color: transparent;
     color: rgb(0, 0, 0);
     border-radius: 12px;
     padding: 20px;
     padding-right: 30px;
     padding-left: 30px;
 
+}
+.header{
+    color:white
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .start:hover {
     opacity: 70%;
