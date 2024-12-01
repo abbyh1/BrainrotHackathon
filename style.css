@@ -34,13 +34,14 @@ a {
     opacity: 70%;
 }
 
+
 .menu {
     background-color: rgba(0, 0, 0, 0.7); 
     padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%; 
-    z-index: 1000; 
+    z-index: 999; 
 }
 
 .menu-container {
@@ -51,7 +52,6 @@ a {
     margin: 0 auto; 
 }
 
-
 .title {
     color: white;
     font-family: Arial, sans-serif;
@@ -59,7 +59,6 @@ a {
     text-align: center;
     margin: 0;
 }
-
 
 .nav-btn {
     text-decoration: none; 
@@ -76,6 +75,7 @@ a {
     color: black;
     background-color: yellow;
 }
+
 
 .start {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -95,17 +95,22 @@ a {
 
 .center-container {
     display: flex; 
-    flex-direction: column;
-    justify-content: center; 
+    flex-direction: column; 
+    justify-content: center;
     align-items: center; 
     height: 100vh; 
     text-align: center;
+    padding-right: 4%;
 }
-
 
 .intro-text {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 24px;
     color: white;
     text-align: center; 
+}
+
+.chad-image {
+    height: 500px; 
+    margin-bottom: 0px; 
 }
