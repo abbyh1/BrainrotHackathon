@@ -32,3 +32,13 @@ function DragTheElement(element) {
     document.onmousemove = null;
   }
 }
+
+var button = $(".lesson1Done")
+var congrats = $(".pCongrats")
+
+button.on("click", change)
+
+//event handler
+function change(){
+  congrats.text("Congrats! You just learned your first line of code.")
+}
