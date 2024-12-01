@@ -10,10 +10,15 @@
 .gigachad{
     height:300px;
     object-fit: cover;
+    border-radius: 10px;
 }
 .tv{
     height:300px;
     object-fit: cover;
+    border-radius: 10px;
+}
+.rizzler{
+    border-radius: 10px;
 }
 h2{
     text-align: center;
