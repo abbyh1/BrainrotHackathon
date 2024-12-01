@@ -1,1 +1,1 @@
-# Hackathon
+# Brainrot Hackathon
